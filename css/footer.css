@@ -1,5 +1,6 @@
 .footer {
     background-color: #000000;
+    
 }
 
 .footer-container {
@@ -32,5 +33,66 @@
 }
 
 .footer-copy {
-    grid-template-columns: 1 / -1;
+    font-size: 1.125rem;
+    grid-column: 1 / -1;
+}
+
+.footer-container {
+    position: relative;
+}
+
+.footer-contato div::before {
+    display: block;
+    content: "";
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 630px; 
+}
+
+.mail::before {
+    background: url("../img/mail.svg") no-repeat center center;
+
+}
+
+.phone::before {
+    background: url("../img/phone.svg") no-repeat center center;
+
+}
+
+.linkedin::before {
+    background: url("../img/linkedin.svg") no-repeat center center;
+
+}
+
+.git::before {
+    background: url("../img/github.svg") no-repeat center center;
+
+}
+
+.footer-contato .git::before {
+    display: block;
+    content: "";
+    width: 29.8px;
+    height: 29.8px;
+    position: absolute;
+    left: 630px; 
+}
+
+@media (max-width: 800px){
+    .footer-container {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .footer-contato li {
+        font-size: 1.5rem;
+    }
+
+}
+
+@media (max-width: 1265px) {
+    .footer-contato div::before {
+        background: none;
+    }
 }
