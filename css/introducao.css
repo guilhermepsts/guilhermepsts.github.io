@@ -33,6 +33,9 @@
     color: #525252;
 }
 
+span {
+    color: rgba(0,161,255,1);
+}
 @media (max-width: 1000px) {
     .introducao h1 {
         font-size: 3rem;
