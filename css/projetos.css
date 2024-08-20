@@ -86,3 +86,9 @@
     color: black;
     padding: 5px 10px;
 }
+
+.projeto img {
+    border-radius: 5px;
+    box-shadow: 11px 11px 20px -11px rgba(170, 170, 170, 0.75);
+    max-width: 90%;
+}
