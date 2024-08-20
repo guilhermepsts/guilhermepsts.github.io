@@ -6,6 +6,8 @@
   grid-template-columns: 2fr 1fr;
   gap: 100px;
   margin-bottom: 60px;
+  background-color: #f5f5f5;
+  border-radius: 20px;
 }
 
 .projetos .subtitulo {
