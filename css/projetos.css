@@ -7,7 +7,7 @@
   gap: 100px;
   margin-bottom: 60px;
   background-color: #f5f5f5;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .projetos .subtitulo {
@@ -102,4 +102,20 @@ color: linear-gradient(4deg, rgba(125,59,209,1) 0%, rgba(177,80,196,1) 100%);
 .projeto img:hover {
   max-width: 100%;
   transition: 0.2s;
+}
+
+@media (max-width: 800px) {
+  .projetos {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+  .projetos .subtitulo {
+    color: black;
+  }
+}
+
+@media (max-width: 380px) {
+  .projetos .subtitulo {
+    font-size: 3rem;
+  }
 }
