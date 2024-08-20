@@ -6,8 +6,6 @@ body {
     margin: 0px;
     font-family: "Fira Sans", Arial, sans-serif;
     color: #141414;
-    /* background: linear-gradient(333deg, rgba(0,255,191,1) 0%, rgba(0,161,255,1) 95%); */
-
 }
 
 h1, h2, h3, p {
@@ -33,6 +31,14 @@ img {
     word-break: break-all;
     max-width: 4ch;
 }
+
+.gradient {
+    background-image: linear-gradient(to bottom, #7d3bd1, #b150c4);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+  }
 
 @media (max-width: 800px) {
     .subtitulo {

@@ -78,7 +78,11 @@
     display: block;
     width: 4px;
     height: 20px;
-    background: linear-gradient(120deg, rgba(0,255,191,1) 0%, rgba(0,161,255,1) 95%);
+    background: linear-gradient(
+    4deg,
+    rgba(125, 59, 209, 1) 0%,
+    rgba(177, 80, 196, 1) 100%
+  );
     position: absolute;
     left: -24px;
 }
