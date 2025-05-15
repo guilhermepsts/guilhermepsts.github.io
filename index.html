@@ -1,63 +1,46 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Guilherme Santos - Desenvolvedor Web</title>
-    <meta
-      name="description"
-      content="Portfolio Guilherme Santos - Desenvolvedor Front End & UX/UI Designer"
-    />
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="shortcut icon" href="./img/favicon.svg" type="image/x-icon" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
 
-  <body>
-    <header class="header">
-      <img
-        src="./img/Guilherme_Santos.svg"
-        alt="Guilherme Santos"
-        width="387"
-        height="40"
-      />
-      <nav>
-        <ul class="header-menu">
-          <li><a href="#projetos">Projetos</a></li>
-          <li><a href="#experiencia">Experiência</a></li>
-          <li><a href="#formacao">Formação</a></li>
-          <li><a href="#contato">Contato</a></li>
-        </ul>
-      </nav>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Guilherme Santos - Desenvolvedor Web</title>
+  <meta name="description" content="Portfolio Guilherme Santos - Desenvolvedor Front End & UX/UI Designer" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="shortcut icon" href="./img/favicon.svg" type="image/x-icon" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap" rel="stylesheet" />
+</head>
 
-    <main class="introducao">
-      <img
-        src="./img/perfil.jpg"
-        alt="Guilherme Santos"
-        width="1024"
-        height="2070"
-      />
-      <div>
-        <h1>Desenvolvedor Web<span class="gradient">.</span></h1>
-        <p>Rio de Janeiro, BR 🌎</p>
-        <br />
-        <p class="experiencia-texto">
-          Desenvolvo projetos utilizando <br />
-          <strong>HTML</strong>, <strong>CSS</strong>,
-          <strong>JavaScript</strong>, <strong>React</strong> e
-          <strong>PHP</strong>.
-        </p>
-      </div>
-    </main>
+<body>
+  <header class="header">
+    <a href="./"><img src="./img/Guilherme_Santos.svg" alt="Guilherme Santos" width="387" height="40" /></a>
+    <nav>
+      <ul class="header-menu">
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#experiencia">Experiência</a></li>
+        <li><a href="#formacao">Formação</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <section class="projetos" id="projetos" aria-label="Projetos">
+  <main class="introducao">
+    <img src="./img/perfil.jpg" alt="Guilherme Santos" width="1024" height="2070" />
+    <div>
+      <h1>Desenvolvedor Web <span class="gradient">&</span> UI/UX Designer<span class="gradient">.</span></h1>
+      <p>Rio de Janeiro, BR 🌎</p>
+      <br />
+      <p class="experiencia-texto">
+        Desenvolvo projetos com <br /> <strong>React</strong>,<strong>Typescript</strong> e <strong>Node.js</strong>
+      </p>
+    </div>
+  </main>
+
+  <section class="projetos-section" id="projetos" aria-label="Projetos">
+    <div class="projetos">
       <div class="projeto">
         <h3 class="projeto-titulo">Bikcraft</h3>
         <ul class="projeto-habilidades">
@@ -65,132 +48,139 @@
           <li>CSS</li>
           <li>JavaScript</li>
         </ul>
-        <a href="./projeto-bikcraft/index.html"
-          ><img src="./img/sitebk-print.jpg" alt=""
-        /></a>
-        <p>Site de venda de Bicicletas. Responsivo e Mobile-Friendly.</p>
+        <a href="./projeto-bikcraft/index.html" target="_blank"><img src="./img/sitebk-print.jpg" alt="Site Bikcraft" /></a>
+        <p>Site de loja de bicicletas desenvolvido com HTML, CSS puro e JavaScript. O projeto teve como foco o aprendizado de layout responsivo, animações com CSS e interações dinâmicas com JavaScript, como menus, carrosséis de imagens. Foi uma ótima oportunidade para consolidar os fundamentos da web sem frameworks.</p>
       </div>
-      <h2 class="subtitulo gradient">Projetos</h2>
-    </section>
 
-    <section class="experiencia" id="experiencia" aria-label="Experiência">
-      <h2 class="subtitulo">Experiência</h2>
+      <div class="projeto">
+        <h3 class="projeto-titulo">Task Manager</h3>
+        <ul class="projeto-habilidades">
+          <li>React</li>
+          <li>Vite</li>
+          <li>TailwindCSS</li>
+          <li>CSS</li>
+          <li>HTML</li>
+        </ul>
+        <a href="https://aulao-react-six.vercel.app/" target="_blank"><img src="./img/task-manager.jpg" alt="" /></a>
+        <p>Aplicativo de gerenciamento de tarefas desenvolvido com React, Vite e TailwindCSS. O foco do projeto foi praticar a componentização no React, criando e reutilizando componentes como listas, formulários e itens de tarefa. Também foram utilizados hooks para controle de estado e efeitos. O Vite acelerou o desenvolvimento com build rápido, e o TailwindCSS facilitou a criação de uma interface responsiva e moderna.</p>
+      </div>
+    </div>
+    <h2 class="subtitulo gradient">Projetos</h2>
+  </section>
+
+  <section class="experiencia" id="experiencia" aria-label="Experiência">
+    <h2 class="subtitulo">Experiência</h2>
+
+    <div>
+      <div class="empresa">
+        <span class="empresa-ano">Out 2023/ Atual</span>
+        <h3 class="empresa-titulo">Investsmart</h3>
+        <span class="empresa-titulo">Analista de Infraestrutura e Redes</span>
+        <p class="empresa-texto">
+          Administração de usuários nos painéis Microsoft Exchange e de
+          backups com a plataforma Veeam. <br />
+          Helpdesk <br />
+          Montagem e Manutenção de computadores. <br />
+          Windows Server 2019 R2 (AD, DNS, DHCP). <br />
+          Gerenciamento de Switches Intelbras. <br />
+          Pfsense.
+        </p>
+        <ul class="empresa-habilidades">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Hardware</li>
+        </ul>
+      </div>
+
+      <div class="empresa">
+        <span class="empresa-ano">Set 2020/ Set 2023</span>
+        <h3 class="empresa-titulo">IECPN</h3>
+        <span class="empresa-titulo">Analista de Suporte</span>
+        <p class="empresa-texto">
+          Helpdesk <br />
+          Montagem e Manutenção de computadores. <br />
+          Configuração Windows Server 2008 R2 (AD, DNS, DHCP). <br />
+          Configuração de Switches Ciscos. <br />
+          Rede UniFi.
+        </p>
+        <ul class="empresa-habilidades">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Hardware</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="formacao" id="formacao" aria-label="Formação">
+    <div class="formacao-container">
+      <h2 class="subtitulo">Formação</h2>
 
       <div>
-        <div class="empresa">
-          <span class="empresa-ano">Out 2023/ Atual</span>
-          <h3 class="empresa-titulo">Investsmart</h3>
-          <span class="empresa-titulo">Analista de Infraestrutura e Redes</span>
-          <p class="empresa-texto">
-            Administração de usuários nos painéis Microsoft Exchange e de
-            backups com a plataforma Veeam. <br />
-            Helpdesk <br />
-            Montagem e Manutenção de computadores. <br />
-            Windows Server 2019 R2 (AD, DNS, DHCP). <br />
-            Gerenciamento de Switches Intelbras. <br />
-            Pfsense.
-          </p>
-          <ul class="empresa-habilidades">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>Hardware</li>
-          </ul>
-        </div>
-
-        <div class="empresa">
-          <span class="empresa-ano">Set 2020/ Set 2023</span>
-          <h3 class="empresa-titulo">IECPN</h3>
-          <span class="empresa-titulo">Analista de Suporte</span>
-          <p class="empresa-texto">
-            Helpdesk <br />
-            Montagem e Manutenção de computadores. <br />
-            Configuração Windows Server 2008 R2 (AD, DNS, DHCP). <br />
-            Configuração de Switches Ciscos. <br />
-            Rede UniFi.
-          </p>
-          <ul class="empresa-habilidades">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>Hardware</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section class="formacao" id="formacao" aria-label="Formação">
-      <div class="formacao-container">
-        <h2 class="subtitulo">Formação</h2>
-
-        <div>
-          <p class="formacao-texto">
-            Cursando <strong>Engenharia da Computação</strong>. Além disso, me
-            mantenho sempre atualizado com cursos intensivos online.
-          </p>
-
-          <ul class="faculdade-lista">
-            <li class="faculdade">
-              <span class="faculdade-tipo">Bacharel</span>
-              <h3 class="faculdade-curso">Engenharia da Computação</h3>
-              <span class="faculdade-instituicao">UNESA</span>
-            </li>
-          </ul>
-
-          <div class="formacao-extra">
-            <div class="cursos">
-              <h3>Cursos</h3>
-              <ul>
-                <li>UX/UI Design <span>32h</span></li>
-                <li>HTML e CSS para iniciantes <span>23h</span></li>
-                <li>JavaScript Completo <span>37h</span></li>
-                <li>React Completo <span>18h</span></li>
-              </ul>
-            </div>
-            <div class="idiomas">
-              <h3>Idiomas</h3>
-              <ul>
-                <li>Português <span>/ Nativo</span></li>
-                <li>Inglês <span>/ Fluente</span></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <footer class="footer" id="contato">
-      <div class="footer-container">
-        <p class="footer-texto">
-          Estou disponível para novos projetos. <br />
-          Entre em contato comigo! 👨🏻‍💻
+        <p class="formacao-texto">
+          Cursando <strong>Engenharia da Computação</strong>. Além disso, me
+          mantenho sempre atualizado com cursos intensivos online.
         </p>
-        <ul class="footer-contato">
-          <div class="mail">
-            <li><a href="mailto:guilhermegps08@gmail.com">guilhermegps08@gmail.com</a></li>
-          </div>
-          <div class="phone">
-            <li><a href="https://wa.me/5521965199411" target="_blank">+55 21 965199411</a></li>
-          </div>
-          <div class="linkedin">
-            <li>
-              <a
-                href="https://www.linkedin.com/in/guilhermepsts/"
-                target="_blank"
-                >@guilhermepsts</a
-              >
-            </li>
-          </div>
-          <div class="git">
-            <li>
-              <a href="https://github.com/guilhermepsts" target="_blank"
-                >@guilhermepsts</a
-              >
-            </li>
-          </div>
+
+        <ul class="faculdade-lista">
+          <li class="faculdade">
+            <span class="faculdade-tipo">Bacharel</span>
+            <h3 class="faculdade-curso">Engenharia da Computação</h3>
+            <span class="faculdade-instituicao">UNESA</span>
+          </li>
         </ul>
-        <p class="footer-copy">Guilherme Santos. Alguns direitos reservados.</p>
+
+        <div class="formacao-extra">
+          <div class="cursos">
+            <h3>Cursos</h3>
+            <ul>
+              <li>UX/UI Design <span>32h</span></li>
+              <li>HTML e CSS para iniciantes <span>23h</span></li>
+              <li>JavaScript Completo <span>37h</span></li>
+              <li>React Completo <span>18h</span></li>
+            </ul>
+          </div>
+          <div class="idiomas">
+            <h3>Idiomas</h3>
+            <ul>
+              <li>Português <span>/ Nativo</span></li>
+              <li>Inglês <span>/ Fluente</span></li>
+            </ul>
+          </div>
+        </div>
       </div>
-    </footer>
-  </body>
+    </div>
+  </section>
+
+  <footer class="footer" id="contato">
+    <div class="footer-container">
+      <p class="footer-texto">
+        Estou disponível para novos projetos. <br />
+        Entre em contato comigo! 👨🏻‍💻
+      </p>
+      <ul class="footer-contato">
+        <div class="mail">
+          <li><a href="mailto:guilhermegps08@gmail.com">guilhermegps08@gmail.com</a></li>
+        </div>
+        <div class="phone">
+          <li><a href="https://wa.me/5521965199411" target="_blank">+55 21 965199411</a></li>
+        </div>
+        <div class="linkedin">
+          <li>
+            <a href="https://www.linkedin.com/in/guilhermepsts/" target="_blank">@guilhermepsts</a>
+          </li>
+        </div>
+        <div class="git">
+          <li>
+            <a href="https://github.com/guilhermepsts" target="_blank">@guilhermepsts</a>
+          </li>
+        </div>
+      </ul>
+      <p class="footer-copy">Guilherme Santos. Alguns direitos reservados.</p>
+    </div>
+  </footer>
+</body>
+
 </html>

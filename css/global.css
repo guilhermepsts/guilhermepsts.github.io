@@ -1,56 +1,66 @@
 html {
-    scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
 body {
-    margin: 0px;
-    font-family: "Fira Sans", Arial, sans-serif;
-    color: #141414;
+	margin: 0px;
+	font-family: 'Fira Sans', Arial, sans-serif;
+	color: #141414;
 }
 
-h1, h2, h3, p {
-    margin: 0px;
+h1,
+h2,
+h3,
+p {
+	margin: 0px;
 }
 
 ul {
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
 }
 
 img {
-    max-width: 100%;
-    display: block;
-    height: auto;
+	max-width: 100%;
+	display: block;
+	height: auto;
 }
 
 .subtitulo {
-    font-size: 8rem;
-    line-height: 1;
-    text-transform: uppercase;
-    word-break: break-all;
-    max-width: 4ch;
+	font-size: 8rem;
+	line-height: 1;
+	text-transform: uppercase;
+	word-break: break-all;
+	max-width: 4ch;
 }
 
 .gradient {
-    background-image: linear-gradient(to bottom, #7d3bd1, #b150c4);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    color: black;
-  }
+	background: #2f277d;
+	background: #2f277d;
+	background: linear-gradient(
+		148deg,
+		rgba(47, 39, 125, 1) 0%,
+		rgba(58, 96, 145, 1) 45%,
+		rgba(0, 170, 255, 1) 100%
+	);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: black;
+}
 
 @media (max-width: 800px) {
-    .subtitulo {
-        font-size: 6rem ;
-        line-height: 1;
-        text-transform: capitalize;
-        max-width: initial !important;
-    }    
+	.subtitulo {
+		font-size: 6rem;
+		line-height: 1;
+		text-transform: capitalize;
+		max-width: initial !important;
+	}
 }
 
 @media (max-width: 550px) {
-    .subtitulo {
-        font-size: 4rem;
-    }
+	.subtitulo {
+		font-size: 4rem;
+	}
 }
